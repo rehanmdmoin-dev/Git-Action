@@ -4,17 +4,17 @@ on:
   push:
     branches:
       - main
-      - development
+      - develop
 
   pull_request:
     branches:
       - main
-      - development
+      - develop
 
 jobs:
 
   test:
-    name: nodejs cicd Project
+    name: Test Project
     runs-on: ubuntu-latest
 
     steps:
